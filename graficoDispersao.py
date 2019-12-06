@@ -9,7 +9,7 @@ minutes = [175,170,205,120,220,130,105,145,192]
 labels = ['a','b','c','d','e','f','g','h','i']
 
 plt.scatter(friends, minutes)
-sns.set(style="darkgrid")
+
 
 #nomeia cada posição
 for label, friend_count,minute_count in zip(labels, friends, minutes):
